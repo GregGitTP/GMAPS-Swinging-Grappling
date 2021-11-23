@@ -25,7 +25,7 @@ public class CharacterMovement : MonoBehaviour
         Movement();
     }
 
-    // Function that controls and converts mouse movement to in game head rotations and pivoting
+    // Function that will control and converts mouse movement to in game head rotations and pivoting
     void Look(){
         float mouseX=Input.GetAxis("Mouse X")*sens*Time.deltaTime;
         float mouseY=Input.GetAxis("Mouse Y")*sens*Time.deltaTime;
