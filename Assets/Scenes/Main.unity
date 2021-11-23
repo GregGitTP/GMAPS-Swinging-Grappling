@@ -759,8 +759,6 @@ MonoBehaviour:
   camera: {fileID: 963194228}
   sens: 600
   speed: 15
-  jumpForce: 1000
-  gravity: -9.81
 --- !u!54 &1070626424
 Rigidbody:
   m_ObjectHideFlags: 0

@@ -4,19 +4,15 @@ using UnityEngine;
 
 public class CharacterMovement : MonoBehaviour
 {
-    // FIRST PERSON CONTROLLER VARIABLES
+    // VARIABLES
     public Transform body;
     public Transform camera;
 
     public float sens=600f;
     public float speed=10f;
-    public float jumpForce=1f;
-    public float gravity=-9.81f*.5f;
 
     Rigidbody rb;
-    float xRot=0f;
-    float verticalVelocity;
-    bool grounded;
+    float xRot;
 
     void Start(){
         rb=GetComponent<Rigidbody>();
